@@ -1,4 +1,4 @@
-const {readFileSync, promises: fsPromises} = require('fs');
+const { promises: fsPromises} = require('fs');
 
 async function processData(filename) {
   try {
